@@ -1,3 +1,14 @@
+# Nina's Modified Hugo Learn Theme
+
+This is a fork of the original hugo learn theme, from [matcornic/hugo-theme-learn](https://github.com/matcornic/hugo-theme-learn), currently pegged at version 2.2.0 of the original.
+
+It includes the following improvements:
+
+- It's more obvious that you can take action on the expand section. The link is larger, and features a mouse-over.
+- Replaced code highlight theme with Agate
+- Add a language label to each highlighted code block
+- Improved copy and paste for Python, to prevent REPL control characters and output from being copied over.
+
 # Hugo Learn Theme
 
 This repository contains a theme for [Hugo](https://gohugo.io/), based on great [Grav Learn Theme](https://learn.getgrav.org/).
@@ -39,7 +50,7 @@ Check that your Hugo version is minimum `0.25` with `hugo version`.
 
 ## Download old versions (prior to 2.0.0)
 
-If you need old version for compatibility purpose, either download [theme source code from releases](https://github.com/matcornic/hugo-theme-learn/releases) or use the right git tag. For example, with `1.1.0` 
+If you need old version for compatibility purpose, either download [theme source code from releases](https://github.com/matcornic/hugo-theme-learn/releases) or use the right git tag. For example, with `1.1.0`
 
 - Direct download way: https://github.com/matcornic/hugo-theme-learn/archive/1.1.0.zip
 - Git way:
