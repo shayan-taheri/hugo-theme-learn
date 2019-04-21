@@ -1,102 +1,109 @@
-/*
+/*!
+ * Agate by Taufik Nurrohman <https://github.com/tovic>
+ * ----------------------------------------------------
+ *
+ * #ade5fc
+ * #a2fca2
+ * #c6b4f0
+ * #d36363
+ * #fcc28c
+ * #fc9b9b
+ * #ffa
+ * #fff
+ * #333
+ * #62c8f3
+ * #888
+ *
+ */
 
-vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
-
-*/
-
-/*background color*/
 .hljs {
   display: block;
   overflow-x: auto;
-  padding: 0.5em;
+  /* padding: 0.5em; */
+  /* background: #333; */
   background: #1d1f21;
+  color: white;
 }
 
-/*selection color*/
-.hljs::selection,
-.hljs span::selection {
-  background: #373b41;
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
 }
 
-.hljs::-moz-selection,
-.hljs span::-moz-selection {
-  background: #373b41;
-}
-
-/*foreground color*/
-.hljs {
-  color: #c5c8c6;
-}
-
-/*color: fg_yellow*/
-.hljs-title,
-.hljs-name {
-  color: #f0c674;
-}
-
-/*color: fg_comment*/
-.hljs-comment,
-.hljs-meta,
-.hljs-meta .hljs-keyword {
-  color: #707880;
-}
-
-/*color: fg_red*/
-.hljs-number,
-.hljs-symbol,
-.hljs-literal,
-.hljs-deletion,
-.hljs-link {
- color: #cc6666
-}
-
-/*color: fg_green*/
-.hljs-string,
-.hljs-doctag,
-.hljs-addition,
-.hljs-regexp,
-.hljs-selector-attr,
-.hljs-selector-pseudo {
-  color: #b5bd68;
-}
-
-/*color: fg_purple*/
-.hljs-attribute,
 .hljs-code,
-.hljs-selector-id {
- color: #b294bb;
-}
-
-/*color: fg_blue*/
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-bullet,
-.hljs-tag {
- color: #81a2be;
-}
-
-/*color: fg_aqua*/
-.hljs-subst,
-.hljs-variable,
-.hljs-template-tag,
-.hljs-template-variable {
-  color: #8abeb7;
-}
-
-/*color: fg_orange*/
-.hljs-type,
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-quote,
-.hljs-section,
-.hljs-selector-class {
-  color: #de935f;
-}
-
 .hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-strong {
-  font-weight: bold;
+.hljs-tag {
+  color: #62c8f3;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #ade5fc;
+}
+
+.hljs-string,
+.hljs-bullet {
+  color: #a2fca2;
+}
+
+.hljs-type,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-quote,
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #ffa;
+}
+
+.hljs-number,
+.hljs-symbol,
+.hljs-bullet {
+  color: #d36363;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal {
+  color: #fcc28c;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-code {
+  color: rgb(186, 173, 219);
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #c6b4f0;
+}
+
+.hljs-meta {
+  color: #fc9b9b;
+}
+
+.hljs-deletion {
+  background-color: #fc9b9b;
+  color: #333;
+}
+
+.hljs-addition {
+  background-color: #a2fca2;
+  color: #333;
+}
+
+.hljs a {
+  color: inherit;
+}
+
+.hljs a:focus,
+.hljs a:hover {
+  color: inherit;
+  text-decoration: underline;
 }
